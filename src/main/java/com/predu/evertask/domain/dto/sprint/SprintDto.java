@@ -1,15 +1,24 @@
 package com.predu.evertask.domain.dto.sprint;
 
-import lombok.Data;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.predu.evertask.domain.dto.BaseDto;
+import lombok.Getter;
+import lombok.Setter;
 
-import java.util.Date;
+import java.time.OffsetDateTime;
 
-@Data
-public class SprintDto {
+@Getter
+@Setter
+public class SprintDto extends BaseDto {
 
-    private String id;
-    private Date createdAt;
+    private String projectId;
+    private Integer ordinal;
     private String description;
-    private Date startDate;
-    private Date finishDate;
+    private boolean isCompleted;
+
+    @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss Z")
+    private OffsetDateTime startDate;
+
+    @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss Z")
+    private OffsetDateTime finishDate;
 }

@@ -1,0 +1,509 @@
+{
+  "backlog": {
+    "addIssue": "Add issue",
+    "allIssues": "All issues",
+    "clearSearch": "Clear",
+    "emptySection": "No issues",
+    "searchPlaceholder": "Search by title, description, code...",
+    "sprint": {
+      "title": "Sprint {{ordinal}}"
+    },
+    "title": "Backlog",
+    "unassigned": {
+      "title": "Unassigned issues"
+    }
+  },
+  "board": {
+    "noCurrentIssues": "There are no current issues.",
+    "noCurrentSprint": "The board is empty, because there is no sprint currently active.",
+    "title": "{{methodology}} board"
+  },
+  "changePasswordDialog": {
+    "header": "Change password",
+    "validation": {
+      "newPassword": {
+        "maxLength": "New password is too long (maximum 30 characters)",
+        "minLength": "New password is too short (minimum 8 characters)",
+        "required": "New password is required"
+      }
+    }
+  },
+  "confirmationDialog": {
+    "header": "Are you sure?"
+  },
+  "dashboard": {
+    "assignedIssues": {
+      "noIssues": "There are no issues assigned to you. Enjoy your free time! :)",
+      "title": "Issues assigned to me"
+    },
+    "projects": {
+      "title": "Organisation projects"
+    }
+  },
+  "error": {
+    "FORBIDDEN": {
+      "content": "You don't have permission to access this resource.",
+      "title": "403 Forbidden"
+    },
+    "NOT_FOUND": {
+      "content": "Content you're looking for cannot be found.",
+      "title": "404 Not found"
+    },
+    "UNAUTHORIZED": {
+      "content": "You need to be logged in to access this resource.",
+      "title": "401 Unauthorized"
+    },
+    "globalContent": "Try refreshing the page, if it doesn't help, please contact page administrator.",
+    "globalTitle": "Oops! Something went wrong! :("
+  },
+  "general": {
+    "accept": "Accept",
+    "active": "Active",
+    "addSprint": "Add sprint",
+    "back": "Back",
+    "backlog": "Backlog",
+    "bio": "Bio",
+    "cancel": "Cancel",
+    "change": "Change",
+    "code": "Authenticator code",
+    "days": "Days",
+    "decline": "Decline",
+    "delete": "Delete",
+    "disable": "Disable",
+    "edit": "Edit",
+    "email": "E-mail",
+    "enable": "Enable",
+    "endSprint": "End sprint",
+    "firstName": "First name",
+    "inputPlaceholder": "Start typing to filter",
+    "issueCount": "Issue count",
+    "issuePriority": {
+      "ASAP": "ASAP",
+      "HIGH": "High",
+      "LOW": "Low",
+      "MEDIUM": "Medium",
+      "VERY_HIGH": "Very high"
+    },
+    "issuePriorityTitle": "Issue priority",
+    "issueStatus": {
+      "ACCEPTED": "Accepted",
+      "CODE_REVIEW": "Code review",
+      "COMPLETED": "Completed",
+      "IN_PROGRESS": "In progress",
+      "ON_HOLD": "On hold",
+      "TESTING": "Testing",
+      "TO_DO": "To do"
+    },
+    "issueStatusTitle": "Issue status",
+    "issueType": {
+      "BUG": "Bug",
+      "EPIC": "Epic",
+      "STORY": "Story",
+      "SUBTASK": "Subtask",
+      "TASK": "Task"
+    },
+    "language": {
+      "EN": "English",
+      "PL": "Polish"
+    },
+    "lastName": "Last name",
+    "login": "Login",
+    "logout": "Log out",
+    "mainPage": "Main page",
+    "newPassword": "New password",
+    "no": "No",
+    "notSet": "Not set",
+    "notUpdated": "Not updated yet",
+    "password": "Password",
+    "phoneNumber": "Phone number",
+    "profile": "User profile",
+    "rePassword": "Password confirmation",
+    "resetPassword": "Reset Password",
+    "sentAt": "Sent at:",
+    "setActive": "Set active",
+    "signup": "Sign Up",
+    "startSprint": "Start sprint",
+    "storyPoints": "Story points",
+    "submit": "Submit",
+    "unassigned": "Unassigned",
+    "updatedAt": "Updated at",
+    "upload": "Upload",
+    "username": "Username",
+    "view": "View",
+    "yes": "Yes"
+  },
+  "header": {
+    "currentProject": "Current project"
+  },
+  "inviteMemberDialog": {
+    "noUsers": "No unassigned users",
+    "title": "Invite organisation member"
+  },
+  "issueDialog": {
+    "assignee": "Assignee",
+    "description": "Description",
+    "estimateHours": "Estimate (hours)",
+    "estimateStoryPoints": "Estimate (story points)",
+    "header": {
+      "add": "Add new issue",
+      "add_subtask": "Add subtask",
+      "edit": "Edit issue"
+    },
+    "priority": "Priority",
+    "pullRequestUrl": "Pull request URL",
+    "sprint": "Sprint",
+    "title": "Issue title",
+    "type": "Issue type",
+    "validation": {
+      "description": {
+        "maxLength": "Description is too long (maximum 2000 characters)",
+        "required": "Description is required."
+      },
+      "pullRequestUrl": {
+        "maxLength": "Pull request URL is too long (maximum 150 characters)",
+        "minLength": "Pull request URL is too short (minimum 10 characters)",
+        "required": "Pull request URL is required."
+      },
+      "title": {
+        "maxLength": "Issue title is too long (maximum 50 characters)",
+        "minLength": "Issue title is too short (minimum 6 characters)",
+        "required": "Issue title is required"
+      }
+    }
+  },
+  "issuePage": {
+    "center": {
+      "editIssue": "Edit issue",
+      "priority": "Priority:",
+      "pullRequestUrl": "Pull request URL",
+      "sprint": "Sprint:",
+      "status": "Status:",
+      "storyPoints": "Story points:",
+      "title": "Issue details",
+      "type": "Type:"
+    },
+    "comments": {
+      "addComment": "Add comment",
+      "goBack": "Go back",
+      "noComments": "No comments yet",
+      "reply": "Reply",
+      "showMore": "Show more replies",
+      "title": "Comments",
+      "validation": {
+        "minLength": "Comment must have a value."
+      }
+    },
+    "description": {
+      "title": "Description"
+    },
+    "right": {
+      "assignee": "Assignee:",
+      "createdAt": "Reported at:",
+      "reporter": "Reporter:",
+      "title": "People and time",
+      "unassigned": "Unassigned",
+      "updatedAt": "Last updated at:"
+    },
+    "subtasks": {
+      "addSubtask": "Add subtask",
+      "noSubtasks": "No subtasks",
+      "title": "Subtasks"
+    },
+    "timeTracking": {
+      "estimatedHours": "Estimated:",
+      "remainingHours": "Remaining:",
+      "report": "Report time",
+      "title": "Time tracking",
+      "totalReportedHours": "Reported:"
+    }
+  },
+  "landingPage": {
+    "features": {
+      "boards": "Each project comes with a separate board, which is updated in real time, whenever something changes.",
+      "methodologies": "Agile? Kanban? We've got you covered, each project can be managed with a different methodology,",
+      "organisations": "Join an already existing organisation or create your own to start working on projects.",
+      "projects": "Create and manage multiple projects, all from the single place.",
+      "statistics": "Monitor your team's progress through each sprint and measure its performance with the help of specialized charts.",
+      "title": "Features"
+    },
+    "headline": "Everything you need for successful project management"
+  },
+  "login": {
+    "title": "Login",
+    "validation": {
+      "password": {
+        "maxLength": "Password is too long (maximum 30 characters)",
+        "minLength": "Password is too short (minimum 8 characters)",
+        "required": "Password is required"
+      },
+      "username": {
+        "maxLength": "Username is too long (maximum 30 characters)",
+        "minLength": "Username is too short (minimum 6 characters)",
+        "required": "Username is required"
+      }
+    }
+  },
+  "resetPassword": {
+    "title": "Reset password",
+    "validation": {
+      "email": {
+        "isValidEmail": "Value must be a valid e-mail address.",
+        "required": "E-mail is required"
+      }
+    }
+  },
+  "mfa": {
+    "title": "Two factor authentication",
+    "validation": {
+      "code": {
+        "maxLength": "Code must have 6 characters",
+        "minLength": "Code must have 6 characters",
+        "required": "Code is required"
+      }
+    }
+  },
+  "mfaDialog": {
+    "header": "Two factor authentication",
+    "mfaDisabled": "Two factor authentication is currently disabled. Press the button below, to enable it. Warning: you will have to log in again after this operation.",
+    "mfaEnabled": "Two factor authentication is currently enabled. Press the button below, to disable it.",
+    "qrCode": "Scan below QR code using your authenticator application (Google Authenticator, Microsoft Authenticator).",
+    "qrWarning": "Warning: closing this dialog will result in logging you out of the application, so make sure that authenticator is set up correctly."
+  },
+  "organisationDialog": {
+    "title": "Edit organisation"
+  },
+  "organisationForm": {
+    "description": "Description",
+    "name": "Organisation name",
+    "validation": {
+      "name": {
+        "maxLength": "Organisation name is too long (maximum 50 characters)",
+        "minLength": "Organisation name is too short (minimum 6 characters)",
+        "required": "Organisation name is required"
+      }
+    }
+  },
+  "organisationPage": {
+    "addProject": "Add new project",
+    "info": {
+      "createdAt": "Created at:",
+      "editOrganisation": "Edit organisation",
+      "updatedAt": "Updated at:"
+    },
+    "invitations": "Pending invitations",
+    "inviteMember": "Invite user",
+    "members": "Organisation members",
+    "noInvitations": "No pending invitations",
+    "noProjects": "No projects created yet",
+    "projects": "Projects",
+    "revokeInvitation": "Revoke invitation",
+    "title": "My organisation"
+  },
+  "pagination": {
+    "page": "Page {{page}} of {{of}}"
+  },
+  "priorityBadge": {
+    "label": {
+      "ASAP": "ASAP",
+      "HIGH": "HIGH",
+      "LOW": "LOW",
+      "MEDIUM": "MEDIUM",
+      "VERY_HIGH": "V. HIGH"
+    }
+  },
+  "profile": {
+    "accountSettings": {
+      "avatarDisclaimer": "Only image files with size below 2 MBs are accepted.",
+      "avatarHeading": "Your avatar",
+      "avatarLabel": "Current avatar",
+      "infoSectionHeading": "Personal information",
+      "removeAvatar": "Remove avatar",
+      "title": "Account settings",
+      "uploadAvatar": "Upload new"
+    },
+    "security": {
+      "changePassword": "Change password",
+      "title": "Security",
+      "twoFactorAuth": "Two factor authentication"
+    },
+    "title": "Your profile",
+    "userInterface": {
+      "darkMode": {
+        "darkMode": "Dark theme",
+        "label": "Interface theme",
+        "lightMode": "Light theme"
+      },
+      "interfaceColor": "Accent color",
+      "interfaceLanguage": "Interface language",
+      "title": "User interface"
+    },
+    "validation": {
+      "bio": {
+        "maxLength": "Bio is too long (maximum 1000 characters)"
+      },
+      "phoneNumber": {
+        "maxLength": "Phone number is too long (maximum 30 characters)",
+        "minLength": "Phone number is too short (minimum 9 characters)"
+      }
+    }
+  },
+  "projectDialog": {
+    "agile": "Agile",
+    "code": "Project code",
+    "description": "Description",
+    "kanban": "Kanban",
+    "methodology": "Methodology",
+    "name": "Project name",
+    "title": {
+      "add": "Add new project",
+      "edit": "Edit project"
+    },
+    "validation": {
+      "code": {
+        "matches": "Project code must be uppercase",
+        "maxLength": "Project code is too long (maximum 6 characters)",
+        "minLength": "Project code is too short (minimum 2 characters)",
+        "required": "Project code is required."
+      },
+      "description": {
+        "required": "Project description is required."
+      },
+      "name": {
+        "maxLength": "Project name is too long (maximum 30 characters)",
+        "minLength": "Project name is too short (minimum 3 characters)",
+        "required": "Project name is required."
+      }
+    }
+  },
+  "projectPage": {
+    "activeMembers": "Active members",
+    "code": "Project code: ",
+    "createdAt": "Created at: ",
+    "description": "Description: ",
+    "infoTitle": "Project information",
+    "lastIssues": "Newest issues",
+    "methodology": "Methodology: ",
+    "name": "Name: ",
+    "noIssues": "No issues created yet",
+    "noSprints": "No sprints created yet.",
+    "setActiveSprintConfirmation": "Are you sure you want to set this sprint as current? This operation will change the content of the board.",
+    "sprints": "Sprints"
+  },
+  "reportTimeDialog": {
+    "days": "Days",
+    "header": "Report time",
+    "hours": "Hours",
+    "numbersExplanation": "One week is equal to five days, and one day is equal to eight hours.",
+    "weeks": "Weeks"
+  },
+  "sidebar": {
+    "link": {
+      "backlog": "Backlog",
+      "board": "Board",
+      "dashboard": "Dashboard",
+      "myOrganisation": "My organisation",
+      "sprints": "Sprints",
+      "statistics": "Statistics"
+    }
+  },
+  "signup": {
+    "submit": "Sign up",
+    "successNotification": {
+      "password": "If provided e-mail was correct, your password should have been reset. Please check your inbox for a link allowing you to set a new password.",
+      "signup": "Your signup has completed successfully. Please check your e-mail inbox, and use the activation link sent to you, to finish the registration process.",
+      "resetPassword": "Your password was reset successfully! Please check your e-mail inbox for a new, temporary password. Please change it as soon as possible."
+    },
+    "title": "Sign up",
+    "validation": {
+      "email": {
+        "isValidEmail": "Value must be a valid e-mail address.",
+        "required": "E-mail is required"
+      },
+      "firstName": {
+        "maxLength": "Name is too long (maximum 30 characters)",
+        "required": "First name is required."
+      },
+      "lastName": {
+        "maxLength": "Last name is too long (maximum 30 characters)",
+        "required": "Last name is required."
+      },
+      "rePassword": {
+        "maxLength": "Password confirmation is too long (maximum 30 characters)",
+        "minLength": "Password confirmation is too short (minimum 8 characters)",
+        "mustMatch": "Password and password confirmation must match.",
+        "required": "Password confirmation is required."
+      }
+    }
+  },
+  "signupConfirmation": {
+    "start": "Start using the portal",
+    "success": "Your account has been successfully activated!",
+    "title": "Account activation"
+  },
+  "sprintDialog": {
+    "description": "Description",
+    "finishDate": "Finish date",
+    "startDate": "Start date",
+    "title": {
+      "add": "Add new sprint",
+      "edit": "Edit sprint"
+    },
+    "validation": {
+      "description": {
+        "required": "Sprint description is required"
+      },
+      "finishDate": {
+        "min": "Finish date cannot be set earlier than start date",
+        "required": "Finish date is required"
+      },
+      "startDate": {
+        "required": "Start date is required"
+      }
+    }
+  },
+  "sprintPage": {
+    "createdAt": "Created at: ",
+    "description": "Description: ",
+    "finishDate": "Finish date: ",
+    "infoTitle": "Information",
+    "issuesTitle": "Issues in this sprint",
+    "membersTitle": "Active users",
+    "startDate": "Start date: "
+  },
+  "sprintsPage": {
+    "completedSprints": "Completed sprints",
+    "currentSprint": "Current sprint",
+    "notCompletedSprints": "Future sprints",
+    "title": "Sprints"
+  },
+  "startEndSprintDialog": {
+    "sprintIdToMoveTo": "Move open issues to",
+    "title": {
+      "end": "End sprint",
+      "start": "Start sprint"
+    }
+  },
+  "statistics": {
+    "averageAge": "Average age",
+    "averageAgeChart": "Average issue age",
+    "burndownChart": "Burndown chart",
+    "commitment": "Commitment",
+    "completed": "Completed",
+    "created": "Created",
+    "createdVsResolvedChart": "Created vs resolved",
+    "noIssuesCreatedYet": "No data for selected date range",
+    "remaining": "Remaining",
+    "resolved": "Resolved",
+    "selectSprint": "Select sprint",
+    "title": "Statistics",
+    "trend": "Trend",
+    "velocityChart": "Velocity chart"
+  },
+  "unassignedUserPage": {
+    "content": "But worry not! Below you can create your own organisation, or see the invitations from the existing ones. Remember, that you can only be a member of one organisation at a time.",
+    "createNewOrganisation": "Create new organisation",
+    "invitationsTitle": "Organisation invitations",
+    "noInvitations": "No invitations received.",
+    "title": "Currently you're not a member of any organisation."
+  }
+}

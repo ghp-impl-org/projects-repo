@@ -28,7 +28,8 @@ import static java.lang.String.format;
 @EnableGlobalMethodSecurity(
         securedEnabled = true,
         jsr250Enabled = true,
-        prePostEnabled = true
+        prePostEnabled = true,
+        proxyTargetClass = true
 )
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
@@ -78,7 +79,9 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 ).and();
 
         http.authorizeRequests()
-                .antMatchers("/api/**").permitAll()
+                .antMatchers("/api/auth/verify").hasRole("PRE_VERIFICATION_USER")
+                .antMatchers("/api/auth/change_password").authenticated()
+                .antMatchers("/api/auth/**").permitAll()
                 .anyRequest().authenticated();
 
         http.addFilterBefore(
@@ -93,7 +96,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 new UrlBasedCorsConfigurationSource();
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowCredentials(true);
-        config.addAllowedOrigin("*");
+        config.addAllowedOrigin("http://localhost:3000");
         config.addAllowedHeader("*");
         config.addAllowedMethod("*");
         source.registerCorsConfiguration("/**", config);

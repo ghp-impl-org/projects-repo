@@ -1,6 +1,5 @@
 package com.predu.evertask.config.security;
 
-import com.predu.evertask.JwtConfigurationProperties;
 import com.predu.evertask.domain.model.User;
 import io.jsonwebtoken.*;
 import org.slf4j.Logger;
@@ -15,6 +14,9 @@ import static java.lang.String.format;
 @Component
 public class JwtTokenUtil {
 
+    private static final String AUTHENTICATED = "authenticated";
+    private static final long TEMP_TOKEN_VALIDITY = 5 * 60 * 1000L;
+    private static final long TOKEN_VALIDITY = 60 * 60 * 1000L;
     private final Logger logger = LoggerFactory.getLogger(JwtTokenUtil.class);
     private final JwtConfigurationProperties jwtConfigurationProperties;
 
@@ -22,12 +24,16 @@ public class JwtTokenUtil {
         this.jwtConfigurationProperties = jwtConfigurationProperties;
     }
 
-    public String generateAccessToken(User user) {
+    public String generateAccessToken(User user, boolean fullyAuthenticated) {
+        Date now = new Date();
+        Date expiryDate = new Date(now.getTime() + (fullyAuthenticated ? TOKEN_VALIDITY : TEMP_TOKEN_VALIDITY));
+
         return Jwts.builder()
-                .setSubject(format("%s,%s", user.getId(), user.getUsername()))
+                .setSubject(format("%s", user.getId()))
+                .claim(AUTHENTICATED, fullyAuthenticated)
                 .setIssuer(jwtConfigurationProperties.getJwtIssuer())
                 .setIssuedAt(new Date())
-                .setExpiration(new Date(System.currentTimeMillis() + 7 * 24 * 60 * 60 * 1000))
+                .setExpiration(expiryDate)
                 .signWith(SignatureAlgorithm.HS512, jwtConfigurationProperties.getJwtSecret())
                 .compact();
     }
@@ -41,13 +47,13 @@ public class JwtTokenUtil {
         return UUID.fromString(claims.getSubject().split(",")[0]);
     }
 
-    public String getUsername(String token) {
+    public boolean isAuthenticated(String token) {
         Claims claims = Jwts.parser()
                 .setSigningKey(jwtConfigurationProperties.getJwtSecret())
                 .parseClaimsJws(token)
                 .getBody();
 
-        return claims.getSubject().split(",")[1];
+        return claims.get(AUTHENTICATED, Boolean.class);
     }
 
     public Date getExpirationDate(String token) {

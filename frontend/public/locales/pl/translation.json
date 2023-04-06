@@ -1,0 +1,509 @@
+{
+  "backlog": {
+    "addIssue": "Dodaj zadanie",
+    "allIssues": "Wszystkie zadania",
+    "clearSearch": "Wyczyść",
+    "emptySection": "Brak zadań",
+    "searchPlaceholder": "Wyszukaj po nazwie, opisie, kodzie...",
+    "sprint": {
+      "title": "Sprint {{ordinal}}"
+    },
+    "title": "Backlog",
+    "unassigned": {
+      "title": "Nieprzypisane zadania"
+    }
+  },
+  "board": {
+    "noCurrentIssues": "Brak obecnych zadań.",
+    "noCurrentSprint": "Zadania nie są wyświetlane, ponieważ żaden sprint nie został rozpoczęty.",
+    "title": "Tablica {{methodology}}"
+  },
+  "changePasswordDialog": {
+    "header": "Zmień hasło",
+    "validation": {
+      "newPassword": {
+        "maxLength": "Nowe hasło jest za długie (maksimum 30 znaków)",
+        "minLength": "Nowe hasło jest za krótkie (minimum 8 znaków)",
+        "required": "Nowe hasło jest wymagane"
+      }
+    }
+  },
+  "confirmationDialog": {
+    "header": "Na pewno?"
+  },
+  "dashboard": {
+    "assignedIssues": {
+      "noIssues": "Nie masz zadań przydzielonych do siebie. Ciesz się czasem wolnym! :)",
+      "title": "Zadania przypisane do mnie"
+    },
+    "projects": {
+      "title": "Projekty organizacji"
+    }
+  },
+  "error": {
+    "FORBIDDEN": {
+      "content": "Nie masz wystarczających uprawnień, aby uzyskać dostęp do tego zasobu.",
+      "title": "403 Brak uprawnień"
+    },
+    "NOT_FOUND": {
+      "content": "Zawartość, którą próbujesz znaleźć nie może być znaleziona.",
+      "title": "Nie znaleziono"
+    },
+    "UNAUTHORIZED": {
+      "content": "Musisz się zalogować aby uzyskać dostęp do tego zasobu.",
+      "title": "401 Użytkownik nieautoryzowany"
+    },
+    "globalContent": "Spróbuj odświeżyć stronę, jeśli to nie pomoże, skontaktuj się z administratorem strony.",
+    "globalTitle": "Ups! Coś poszło nie tak :("
+  },
+  "general": {
+    "accept": "Zaakceptuj",
+    "active": "Aktywny",
+    "addSprint": "Dodaj sprint",
+    "back": "Wróć",
+    "backlog": "Backlog",
+    "bio": "Bio",
+    "cancel": "Anuluj",
+    "change": "Zmień",
+    "code": "Kod autentykatora",
+    "days": "Dni",
+    "decline": "Odrzuć",
+    "delete": "Usuń",
+    "disable": "Wyłącz",
+    "edit": "Edytuj",
+    "email": "E-mail",
+    "enable": "Włącz",
+    "endSprint": "Zakończ sprint",
+    "firstName": "Imię",
+    "inputPlaceholder": "Zacznij pisać, aby filtrować",
+    "issueCount": "Liczba zadań",
+    "issuePriority": {
+      "ASAP": "ASAP",
+      "HIGH": "Wysoki",
+      "LOW": "Niski",
+      "MEDIUM": "Średni",
+      "VERY_HIGH": "Bardzo wysoki"
+    },
+    "issuePriorityTitle": "Priorytet zadania",
+    "issueStatus": {
+      "ACCEPTED": "Zaakceptowane",
+      "CODE_REVIEW": "Przegląd kodu",
+      "COMPLETED": "Zakończone",
+      "IN_PROGRESS": "W trakcie",
+      "ON_HOLD": "Wstrzymane",
+      "TESTING": "Testowane",
+      "TO_DO": "Do zrobienia"
+    },
+    "issueStatusTitle": "Status zadania",
+    "issueType": {
+      "BUG": "Bug",
+      "EPIC": "Epic",
+      "STORY": "Story",
+      "SUBTASK": "Podzadanie",
+      "TASK": "Zadanie"
+    },
+    "language": {
+      "EN": "Angielski",
+      "PL": "Polski"
+    },
+    "lastName": "Nazwisko",
+    "login": "Zaloguj się",
+    "logout": "Wyloguj się",
+    "mainPage": "Strona główna",
+    "newPassword": "Nowe hasło",
+    "no": "Nie",
+    "notSet": "Nie ustawiono",
+    "notUpdated": "Nigdy nie aktualizowany",
+    "password": "Hasło",
+    "phoneNumber": "Numer telefonu",
+    "profile": "Profil użytkownika",
+    "rePassword": "Potwierdź hasło",
+    "resetPassword": "Zresetuj hasło",
+    "sentAt": "Wysłane: ",
+    "setActive": "Aktywuj",
+    "signup": "Rejestracja",
+    "startSprint": "Rozpocznij sprint",
+    "storyPoints": "Punkty story",
+    "submit": "Wyślij",
+    "unassigned": "Nie przypisano",
+    "updatedAt": "Zaktualizowany",
+    "upload": "Wgraj",
+    "username": "Nazwa użytkownika",
+    "view": "Zobacz",
+    "yes": "Tak"
+  },
+  "header": {
+    "currentProject": "Wybrany projekt"
+  },
+  "inviteMemberDialog": {
+    "noUsers": "Brak nieprzydzielonych użytkowników",
+    "title": "Zaproś użytkownika do organizacji"
+  },
+  "issueDialog": {
+    "assignee": "Osoba przypisana",
+    "description": "Opis zadania",
+    "estimateHours": "Oszacowanie (godziny)",
+    "estimateStoryPoints": "Oszacowanie (punkty story)",
+    "header": {
+      "add": "Dodaj zadanie",
+      "add_subtask": "Dodaj podzadanie",
+      "edit": "Edytuj zadanie"
+    },
+    "priority": "Priorytet",
+    "pullRequestUrl": "Adres pull requesta",
+    "sprint": "Sprint",
+    "title": "Tytuł",
+    "type": "Typ zadania",
+    "validation": {
+      "description": {
+        "maxLength": "Opis jest za długi  (maximum 2000 characters)",
+        "required": "Opis zadania jest wymagany."
+      },
+      "pullRequestUrl": {
+        "maxLength": "Adres pull requesta  jest za długi (maksimum 150 znaków)",
+        "minLength": "Adres pull requesta jest za krótki (minimum 10 znaków)",
+        "required": "Adres pull requesta jest wymagany."
+      },
+      "title": {
+        "maxLength": "Tytuł zadania jest za długi (maksimum 50 znaków)",
+        "minLength": "Tytuł zadania jest za mały (minimum 6 znaków)",
+        "required": "Tytuł zadania jest wymagany"
+      }
+    }
+  },
+  "issuePage": {
+    "center": {
+      "editIssue": "Edytuj zadanie",
+      "priority": "Priorytet:",
+      "pullRequestUrl": "Adres pull requesta:",
+      "sprint": "Sprint:",
+      "status": "Status:",
+      "storyPoints": "Punkty story:",
+      "title": "Szczegóły",
+      "type": "Typ:"
+    },
+    "comments": {
+      "addComment": "Dodaj komentarz",
+      "goBack": "Wróć",
+      "noComments": "Brak komentarzy",
+      "reply": "Odpowiedz",
+      "showMore": "Pokaż więcej odpowiedzi",
+      "title": "Komentarze",
+      "validation": {
+        "minLength": "Komentarz musi mieć treść"
+      }
+    },
+    "description": {
+      "title": "Opis"
+    },
+    "right": {
+      "assignee": "Osoba przypisana:",
+      "createdAt": "Zgłoszono:",
+      "reporter": "Osoba raportująca:",
+      "title": "Czas i osoby",
+      "unassigned": "Nie przypisano",
+      "updatedAt": "Zaktualizowano:"
+    },
+    "subtasks": {
+      "addSubtask": "Dodaj podzadanie",
+      "noSubtasks": "Brak podzadań",
+      "title": "Podzadania"
+    },
+    "timeTracking": {
+      "estimatedHours": "Oszacowano:",
+      "remainingHours": "Pozostało:",
+      "report": "Zaraportuj czas",
+      "title": "Śledzenie czasu",
+      "totalReportedHours": "Zaraportowano:"
+    }
+  },
+  "landingPage": {
+    "features": {
+      "boards": "Każdy projekt pozwala na korzystanie z tablicy aktualizowanej w czasie rzeczywistym, w momencie każdej zmiany.",
+      "methodologies": "Agile? Kanban? Jesteśmy z Tobą, każdy projekt może być zarządzany za pomocą innej metodologii.",
+      "organisations": "Dołącz do istniejącej organizacji lub stwórz własną, aby rozpocząć pracę nad projektami.",
+      "projects": "Stwórz i zarządzaj wieloma projektami jednocześnie, wszystko z jednego miejsca.",
+      "statistics": "Monitoruj postęp prac swojego zespołu w każdym sprincie oraz mierz jego wydajność za pomocą wyspecjalizowanych wykresów.",
+      "title": "Funkcjonalności"
+    },
+    "headline": "Wszystko, czego potrzebujesz do zarządzania swoim projektem"
+  },
+  "login": {
+    "title": "Logowanie",
+    "validation": {
+      "password": {
+        "maxLength": "Hasło jest za długie (maksimum 30 znaków)",
+        "minLength": "Hasło jest za krótkie (minimum 8 znaków)",
+        "required": "Hasło jest wymagane"
+      },
+      "username": {
+        "maxLength": "Nazwa użytkownika jest za długa (maksimum 30 znaków)",
+        "minLength": "Nazwa użytkownika jest za krótka (minimum 6 znaków)",
+        "required": "Nazwa użytkownika jest wymagana"
+      }
+    }
+  },
+  "resetPassword": {
+    "title": "Resetuj hasło",
+    "validation": {
+      "email": {
+        "isValidEmail": "Wartość musi być poprawnym adresem e-mail.",
+        "required": "E-mail jest wymagany"
+      }
+    }
+  },
+  "mfa": {
+    "title": "Weryfikacja dwuetapowa",
+    "validation": {
+      "code": {
+        "maxLength": "Kod musi mieć 6 znaków",
+        "minLength": "Kod musi mieć 6 znaków",
+        "required": "Kod jest wymagany"
+      }
+    }
+  },
+  "mfaDialog": {
+    "header": "Weryfikacja dwuetapowa",
+    "mfaDisabled": "Weryfikacja dwuetapowa jest obecnie wyłączona. Naciśnij przycisk poniżej, aby ją włączyć. Uwaga: po tej operacji konieczne będzie ponowne zalogowanie.",
+    "mfaEnabled": "Weryfikacja dwuetapowa jest obecnie włączona. Naciśnij przycisk poniżej, aby ją wyłączyć.",
+    "qrCode": "Zeskanuj poniższy kod QR używając aplikacji autoryzacyjnej (Google Authenticator, Microsoft Authenticator).",
+    "qrWarning": "Uwaga: zamknięcie tego okna spowoduje wylogowanie z aplikacji, więc upewnij się, że aplikacja autoryzacyjna jest skonfigurowana poprawnie."
+  },
+  "organisationDialog": {
+    "title": "Edytuj organizację"
+  },
+  "organisationForm": {
+    "description": "Opis",
+    "name": "Nazwa organizacji",
+    "validation": {
+      "name": {
+        "maxLength": "Nazwa organizacji jest za długa (maksimum 50 znaków)",
+        "minLength": "Nazwa organizacji jest za krótka (minimum 6 znaków)",
+        "required": "Nazwa organizacji jest wymagana"
+      }
+    }
+  },
+  "organisationPage": {
+    "addProject": "Dodaj projekt",
+    "info": {
+      "createdAt": "Stworzono:",
+      "editOrganisation": "Edytuj organizację",
+      "updatedAt": "Zaktualizowano:"
+    },
+    "invitations": "Oczekujące zaproszenia",
+    "inviteMember": "Zaproś użytkownika",
+    "members": "Członkowie organizacji",
+    "noInvitations": "Brak oczekujących zaproszeń",
+    "noProjects": "Brak stworzonych projektów",
+    "projects": "Projekty",
+    "revokeInvitation": "Anuluj zaproszenie",
+    "title": "Moja organizacja"
+  },
+  "pagination": {
+    "page": "Strona {{page}} z {{of}}"
+  },
+  "priorityBadge": {
+    "label": {
+      "ASAP": "ASAP",
+      "HIGH": "WYSOKI",
+      "LOW": "NISKI",
+      "MEDIUM": "ŚREDNI",
+      "VERY_HIGH": "B. WYSOKI"
+    }
+  },
+  "profile": {
+    "accountSettings": {
+      "avatarDisclaimer": "Tylko pliki obrazów o rozmiarach mniejszych niż 2 MB są akceptowane.",
+      "avatarHeading": "Twój awatar",
+      "avatarLabel": "Obecny awatar",
+      "infoSectionHeading": "Twoje dane",
+      "removeAvatar": "Usuń awatar",
+      "title": "Ustawienia konta",
+      "uploadAvatar": "Wgraj nowy"
+    },
+    "security": {
+      "changePassword": "Zmień hasło",
+      "title": "Bezpieczeństwo",
+      "twoFactorAuth": "Weryfikacja dwuetapowa"
+    },
+    "title": "Twój profil",
+    "userInterface": {
+      "darkMode": {
+        "darkMode": "Tryb ciemny",
+        "label": "Tryb wyświetlania",
+        "lightMode": "Tryb jasny"
+      },
+      "interfaceColor": "Kolor akcentów",
+      "interfaceLanguage": "Język",
+      "title": "Ustawienia interfejsu"
+    },
+    "validation": {
+      "bio": {
+        "maxLength": "Biografia jest za długa (maksimum 1000 znaków)"
+      },
+      "phoneNumber": {
+        "maxLength": "Numer telefonu jest za długi (maksimum 30 znaków)",
+        "minLength": "Numer telefonu jest za krótki (minimum 9 znaków)"
+      }
+    }
+  },
+  "projectDialog": {
+    "agile": "Agile",
+    "code": "Kod projektu",
+    "description": "Opis projektu",
+    "kanban": "Kanban",
+    "methodology": "Metodologia",
+    "name": "Nazwa projektu",
+    "title": {
+      "add": "Dodaj projekt",
+      "edit": "Edytuj projekt"
+    },
+    "validation": {
+      "code": {
+        "matches": "Kod projektu musi się składać z dużych liter",
+        "maxLength": "Kod projektu jest za długi (maksimum 6 znaków)",
+        "minLength": "Kod projektu jest za krótki (minimum 2 znaki)",
+        "required": "Kod projektu jest wymagany."
+      },
+      "description": {
+        "required": "Opis projektu jest wymagany."
+      },
+      "name": {
+        "maxLength": "Nazwa projektu jest za długa (maksimum 30 znaków)",
+        "minLength": "Nazwa projektu jest za krótka (minimum 3 znaki)",
+        "required": "Nazwa projektu jest wymagana."
+      }
+    }
+  },
+  "projectPage": {
+    "activeMembers": "Aktywni użytkownicy",
+    "code": "Kod projektu: ",
+    "createdAt": "Stworzony: ",
+    "description": "Opis projektu: ",
+    "infoTitle": "Informacje",
+    "lastIssues": "Najnowsze zadania",
+    "methodology": "Metodologia: ",
+    "name": "Nazwa: ",
+    "noIssues": "Brak stworzonych zadań.",
+    "noSprints": "Brak stworzonych sprintów.",
+    "setActiveSprintConfirmation": "Czy na pewno chcesz ustawić ten sprint jako aktywny? Ta operacja zmieni zawartość tablicy.",
+    "sprints": "Sprinty"
+  },
+  "reportTimeDialog": {
+    "days": "Dni",
+    "header": "Zaraportuj czas",
+    "hours": "Godziny",
+    "numbersExplanation": "Jeden tydzień odpowiada pięciu dniom, zaś jeden dzień odpowiada ośmiu godzinom.",
+    "weeks": "Tygodnie"
+  },
+  "sidebar": {
+    "link": {
+      "backlog": "Backlog",
+      "board": "Tablica",
+      "dashboard": "Dashboard",
+      "myOrganisation": "Moja organizacja",
+      "sprints": "Sprinty",
+      "statistics": "Statystyki"
+    }
+  },
+  "signup": {
+    "submit": "Zarejestruj się",
+    "successNotification": {
+      "password": "Jeżeli podany adres e-mail był prawidłowy, to Twoje hasło zostało zresetowane. Sprawdź skrzynkę odbiorczą, znajdziesz tam link pozwalający ustawić nowe hasło.",
+      "signup": "Rejestracja zakończona powodzeniem! Pod podany adres e-mail został wysłany link aktywacyjny, użyj go, aby aktywować swoje konto.",
+      "resetPassword": "Resetowanie hasła zakończone powodzeniem! Pod podany adres e-mail zostało wysłane nowe, tymczasowe hasło. Prosimy o jego zmianę najszybciej, jak to będzie możliwe."
+    },
+    "title": "Rejestracja",
+    "validation": {
+      "email": {
+        "isValidEmail": "Wartość musi być prawidłowym adresem e-mail.",
+        "required": "E-mail jest wymagany"
+      },
+      "firstName": {
+        "maxLength": "Imię jest za długie (maksimum 30 znaków)",
+        "required": "Imię jest wymagane."
+      },
+      "lastName": {
+        "maxLength": "Nazwisko jest za długie (maksimum 30 znaków)",
+        "required": "Nazwisko jest wymagane."
+      },
+      "rePassword": {
+        "maxLength": "Potwierdzenie hasła jest za długie (maksimum 30 znaków)",
+        "minLength": "Potwierdzenie hasła jest za krótkie (minimum 8 znaków)",
+        "mustMatch": "Hasło i potwierdzenie hasła muszą być identyczne.",
+        "required": "Potwierdzenie hasła jest wymagane."
+      }
+    }
+  },
+  "signupConfirmation": {
+    "start": "Rozpocznij korzystanie z portalu",
+    "success": "Twoje konto zostało pomyślnie aktywowane!",
+    "title": "Aktywacja konta"
+  },
+  "sprintDialog": {
+    "description": "Opis sprintu",
+    "finishDate": "Data końcowa",
+    "startDate": "Data początkowa",
+    "title": {
+      "add": "Dodaj nowy sprint",
+      "edit": "Edytuj sprint"
+    },
+    "validation": {
+      "description": {
+        "required": "Opis sprintu jest wymagany"
+      },
+      "finishDate": {
+        "min": "Data końcowa nie może być datą wcześniejszą niż początkowa",
+        "required": "Data końcowa jest wymagana"
+      },
+      "startDate": {
+        "required": "Data początkowa jest wymagana"
+      }
+    }
+  },
+  "sprintPage": {
+    "createdAt": "Stworzony: ",
+    "description": "Opis: ",
+    "finishDate": "Data zakończenia: ",
+    "infoTitle": "Informacje",
+    "issuesTitle": "Zadania w tym sprincie",
+    "membersTitle": "Aktywni użytkownicy",
+    "startDate": "Data rozpoczęcia: "
+  },
+  "sprintsPage": {
+    "completedSprints": "Ukończone sprinty",
+    "currentSprint": "Obecny sprint",
+    "notCompletedSprints": "Przyszłe sprinty",
+    "title": "Sprinty"
+  },
+  "startEndSprintDialog": {
+    "sprintIdToMoveTo": "Przenieś nieukończone zadania do",
+    "title": {
+      "end": "Zakończ sprint",
+      "start": "Rozpocznij sprint"
+    }
+  },
+  "statistics": {
+    "averageAge": "Średni wiek",
+    "averageAgeChart": "Średni wiek zadań",
+    "burndownChart": "Wykres burndown",
+    "commitment": "Zadeklarowane",
+    "completed": "Ukończone",
+    "created": "Stworzone",
+    "createdVsResolvedChart": "Stworzone vs rozwiązane",
+    "noIssuesCreatedYet": "Brak danych dla wybranego zakresu dat",
+    "remaining": "Pozostało",
+    "resolved": "Rozwiązane",
+    "selectSprint": "Wybierz sprint",
+    "title": "Statystyki",
+    "trend": "Trend",
+    "velocityChart": "Wykres velocity"
+  },
+  "unassignedUserPage": {
+    "content": "Nic straconego! Poniżej możesz stworzyć nową organizację lub przejrzeć zaproszenia do już istniejących. Pamiętaj że możesz być członkiem tylko jednej organizacji.",
+    "createNewOrganisation": "Stwórz nową organizację",
+    "invitationsTitle": "Zaproszenia",
+    "noInvitations": "Brak otrzymanych zaproszeń",
+    "title": "Obecnie nie jesteś członkiem żadnej organizacji."
+  }
+}

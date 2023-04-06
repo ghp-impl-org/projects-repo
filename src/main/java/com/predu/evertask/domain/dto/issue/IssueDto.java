@@ -1,28 +1,34 @@
 package com.predu.evertask.domain.dto.issue;
 
-import lombok.Data;
+import com.predu.evertask.domain.dto.BaseDto;
+import com.predu.evertask.domain.dto.user.UserIssueDto;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.experimental.SuperBuilder;
 
-import java.util.Date;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.List;
 
-@Data
-public class IssueDto {
+@Getter
+@Setter
+@NoArgsConstructor
+@SuperBuilder
+public class IssueDto extends BaseDto {
 
-    private String id;
-    private Date createdAt;
-    private Date updatedAt;
     private String title;
-    private int estimateStoryPoints;
-    private int estimateHours;
+    private Integer estimateStoryPoints;
+    private Integer estimateHours;
+    private Integer key;
+    private String description;
     private String pullRequestUrl;
     private String status;
     private String type;
     private String priority;
     private String projectId;
     private String parentId;
-    private String assigneeId;
-    private String reporterId;
+    private UserIssueDto assignee;
+    private UserIssueDto reporter;
     private String sprintId;
-    private Set<IssueDto> subtasks = new HashSet<>();
+    private List<IssueDto> subtasks = new ArrayList<>();
 }
